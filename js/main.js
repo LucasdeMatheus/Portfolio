@@ -61,11 +61,11 @@ var img_sobreMim = document.getElementById("id_img")
 // sobre mim 1, 2 e 3 e img
 var sobre_mim1_h1 = '<strong id=\"strong_number\">1  </strong><strong id=\"strong_red\">console</strong>.<strong id=\"strong_blue\">log</strong><strong id=\"strong_yellow\">(</strong><strong id=\"strong_green\">“>> ”</strong>, quemSou<strong id=\"strong_yellow\">)</strong>'
 var sobre_mim1_h2 = "<strong id=\"strong_blue\">[Running]</strong><br>>> Bom, eu sou o Lucas. Tenho 18 anos e sou um desenvolvedor back-end em constante aprendizado."
-var sobre_mim1_img = '<img class=\"emoji_nerd\" id=\"emoji_nerd\" src=\"notebook.png\" alt=\"emoji_nerd\">'
+var sobre_mim1_img = '<img class=\"emoji_nerd\" id=\"emoji_nerd\" src=\"\\img\\notebook.png\" alt=\"emoji_nerd\">'
 
 var sobre_mim2_h1 = '<strong id=\"strong_number\">2   </strong><strong id=\"strong_blue\">print</strong><strong id=\"strong_yellow\">(</strong><strong id=\"strong_green\">">> "</strong>, Formação<strong id=\"strong_yellow\">)</strong>'
 var sobre_mim2_h2 = '<strong id=\"strong_blue\">[Running]</strong><br>>> Atualmente, estou cursando o 1º semestre em Análise e Desenvolvimento de Sistemas na Uniasselvi.'
-var sobre_mim2_img = '<img class=\"emoji_nerd\" id=\"emoji_nerd\" src=\"nerd_formando.svg\" alt=\"emoji_nerd_formando\">'
+var sobre_mim2_img = '<img class=\"emoji_nerd\" id=\"emoji_nerd\" src=\"\\img\\nerd_formando.svg\" alt=\"emoji_nerd_formando\">'
 
 
 // indice da navegação
