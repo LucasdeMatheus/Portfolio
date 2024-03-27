@@ -102,8 +102,8 @@ footer div{
     width: 100%;
 }
 
-
-@media screen and (width: 360px) and (height: 740px){
+@media screen and (max-width: 768px){
+    /* header */
     .nav_header{
     padding: 0;
     }
@@ -117,6 +117,9 @@ footer div{
         width: 0.5%;
         height: 4vh;
     }
+
+
+    /* seção 1 */
     .section1.visible h2 {
         opacity: 1;
         font-size: 3.525vw;
@@ -127,7 +130,8 @@ footer div{
     }
     #container_redes {
         display: flex;
-        width: 60%;
+        margin-left: 10% ;
+        width: 50%;
         height: auto;
         gap: 6%;
     }
@@ -135,6 +139,8 @@ footer div{
         opacity: 1;
         height: 25vh;
     }
+
+    /* seção 2*/
     .section2.visible h1 {
         opacity: 1;
         font-size: 5.525vw;
@@ -145,10 +151,10 @@ footer div{
     }
     #nav_left, #nav_right {
         all: initial;
-        font-size: 15vw;
+        font-size: 5vw;
+        margin: 1%;
     }
     .section2.visible img {
-        filter: drop-shadow(0 0 5px rgba(0, 0, 0, 1));
         opacity: 1;
         width: 25%;
         margin-left: 65%;
@@ -157,14 +163,24 @@ footer div{
         height: 31vh;
         opacity: 1;
     }
+
+
+    /* seção 3 */
     #div_projects h1 {
         text-align: center;
-        font-size: 2.5vw;
+        font-size: 2.6vw;
         margin-left: 10%;
         margin-right: 10%;
         position: relative;
         bottom: 0%;
         transition: 2s, bottom 1s;
+    }
+    #div_projects:hover h1{
+        color: white;
+        font-size: 3vw;
+        position: relative;
+        bottom: 12%;
+        text-shadow: 2px 20px 10px rgba(0, 0, 0);
     }
     #div_projects img {
         width: 30%;
@@ -175,13 +191,21 @@ footer div{
         position: relative;
         transition: 1s;
     }
-    .section3.visible #div_projects {
-        height: 17vh;
+    #div_projects:hover img{
+        width: 45%;
+        bottom: 10%;
     }
+
+    .section3.visible #div_projects {
+        height: 20vh;
+    }
+
+
+
     .div_conhecimentos {
-        margin-bottom: 5%;
         margin-top: 5%;
         display: flex;
+        justify-content: center;
         align-items: center;
         background-color: var(--color-primary);
         width: 19%;
@@ -189,9 +213,11 @@ footer div{
         cursor: pointer;
         transition: 0.5s;
     }
+    
     .section4.visible #line_inConhecimentos {
         height: 7vh;
     }
+    
     .sobre_conhecimentos.visible h2 {
         opacity: 1;
         font-size: 2vh;
@@ -200,6 +226,9 @@ footer div{
         opacity: 1;
         width: 15%;
         height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .sobre_conhecimentos.visible h1 {
         opacity: 1;
@@ -208,14 +237,8 @@ footer div{
     }
     .sobre_conhecimentos.visible {
         opacity: 1;
-        height: 55vh;
+        height: 45vh;
     }
-
-
-
-
-
-
     footer p {
         color: white;
         font-size: 1.2vh;

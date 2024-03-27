@@ -38,7 +38,7 @@ function show_sobreMim() {
         updateIndex()
         document.getElementById("id_img").classList.add("visible")
         document.getElementById("sobreMim").classList.add("visible");
-        console.log("chamou")
+        console.log("\n\n pois é amigo, nem tudo é mil maravilhas kkkkkk\n\n")
     }, 900);
 }
 
@@ -163,14 +163,12 @@ var index_select;
 var h1_conhecimentos = document.getElementById("h1_conhecimentos");
 var h2_conhecimentos = document.getElementById("h2_conhecimentos");
 var img_conhecimentos = document.getElementById("div_conhecimentos_select");
-var img_github_conhecimentos = document.getElementById("github_link");
 
 // config python
 var python_select = document.getElementById("python_select");
 var h1_python_select = '<strong id="strong_blue">py</strong><strong id="strong_yellow">thon</strong>';
-var h2_python_select = ' >> <strong id="strong_blue">py</strong><strong id="strong_yellow">thon</strong> é uma <strong id="strong_red">linguagem</strong> de programação popular conhecida por sua <strong id="strong_green">sintaxe simples</strong> e legibilidade. <br> <br>>> Em prática, já utilizei para <strong id="strong_blue">automação</strong> de <strong id="strong_green">tarefas</strong>, <strong id="strong_blue">análise</strong> de <strong id="strong_yellow">dados</strong> e ja escrevi diversos <strong id="strong_red">algoritmos</strong> . . . <br><strong id="strong_grey"># Há diversos códigos .py em meu git hub:</strong>'
+var h2_python_select = ' >> <strong id="strong_blue">py</strong><strong id="strong_yellow">thon</strong> é uma <strong id="strong_red">linguagem</strong> de programação popular conhecida por sua <strong id="strong_green">sintaxe simples</strong> e legibilidade. <br> <br>>> Em prática, já utilizei para <strong id="strong_blue">automação</strong> de <strong id="strong_green">tarefas</strong>, <strong id="strong_blue">análise</strong> de <strong id="strong_yellow">dados</strong> e ja escrevi diversos <strong id="strong_red">algoritmos</strong> . . . <br><strong id="strong_grey"># Há diversos códigos .py em meu git hub</strong>'
 var img_python_select = '<img src="\\img\\python.svg" alt="python.svg">';
-var img_github_python = '<a href="https://github.com/LucasdeMatheus/7daysOfCode" target="_blank"><img src="\\img\\github.svg" alt="github logo"><div id="line_inSocial"></div></a>'
 
 // 0
 python_select.onclick = function(){
@@ -181,7 +179,6 @@ python_select.onclick = function(){
             h1_conhecimentos.innerHTML = h1_python_select;
             h2_conhecimentos.innerHTML = h2_python_select;
             img_conhecimentos.innerHTML = img_python_select;
-            img_github_conhecimentos.innerHTML = img_github_python;
             show_conhecimento_select();
             
         },500)
@@ -202,7 +199,6 @@ AI_select.onclick = function(){
             h1_conhecimentos.innerHTML = h1_illustrator_select
             h2_conhecimentos.innerHTML = h2_illustrator_select
             img_conhecimentos.innerHTML = img_illustrator_select
-            img_github_conhecimentos.innerHTML = null
             
             show_conhecimento_select()
         },500)
@@ -211,9 +207,8 @@ AI_select.onclick = function(){
 
 // config excel
 var h1_excel_select = '<strong id="strong_green">Excel</strong>'
-var h2_excel_select = '>> <strong id="strong_green">Excel</strong> é um dos <strong id="strong_red">programas</strong> de <strong id="strong_green">planilhas</strong> eletrônicas mais populares e amplamente utilizados em todo o mundo. <br><br>>> Em prática, utilizo como <strong id="strong_yellow">banco de dados</strong>. Com o <strong id="strong_blue">py</strong><strong id="strong_yellow">thon</strong>, ja fiz pesquisas de <strong id="strong_yellow">dados</strong>, análise, entre outros. <br><strong id="strong_grey"># Há códigos que fiz em meu git hub:</strong>'
+var h2_excel_select = '>> <strong id="strong_green">Excel</strong> é um dos <strong id="strong_red">programas</strong> de <strong id="strong_green">planilhas</strong> eletrônicas mais populares e amplamente utilizados em todo o mundo. <br><br>>> Em prática, utilizo como <strong id="strong_yellow">banco de dados</strong>. Com o <strong id="strong_blue">py</strong><strong id="strong_yellow">thon</strong>, ja fiz pesquisas de <strong id="strong_yellow">dados</strong>, análise, entre outros. <br><strong id="strong_grey"># Há códigos que fiz em meu git hub</strong>'
 var img_excel_select = '<img src="\\img\\excel.svg" alt="excel.svg">'
-var img_github_excel = '<a href="https://github.com/LucasdeMatheus/Hashtag_powerpy" target="_blank"><img src="\\img\\github.svg" alt="github logo"><div id="line_inSocial"></div></a>'
 
 // 2
 
@@ -225,7 +220,6 @@ excel_select.onclick = function(){
             h1_conhecimentos.innerHTML = h1_excel_select
             h2_conhecimentos.innerHTML = h2_excel_select
             img_conhecimentos.innerHTML = img_excel_select
-            img_github_conhecimentos.innerHTML = img_github_excel
             
             show_conhecimento_select()
         },500)
@@ -234,9 +228,8 @@ excel_select.onclick = function(){
 
 // config javascript
 var h1_js_select = '<strong id="strong_yellow">javascript</strong>'
-var h2_js_select = '>> <strong id="strong_yellow">javascript</strong> é uma <strong id="strong_red">linguagem</strong> de <strong id="strong_red">programação</strong> de alto nível, interpretada e multi-paradigma. <br><br>>> Em prática, ja utilizei para criação de <strong id="strong_yellow">site</strong>, e com o <strong id="strong_green">nodejs</strong>, ja fiz diversos <strong id="strong_red">algoritmos</strong>. <br><strong id="strong_grey"># Há alguns algoritmos em meu git hub: em meu git hub</strong>'
+var h2_js_select = '>> <strong id="strong_yellow">javascript</strong> é uma <strong id="strong_red">linguagem</strong> de <strong id="strong_red">programação</strong> de alto nível, interpretada e multi-paradigma. <br><br>>> Em prática, ja utilizei para criação de <strong id="strong_yellow">site</strong>, e com o <strong id="strong_green">nodejs</strong>, ja fiz diversos <strong id="strong_red">algoritmos</strong>. <br><strong id="strong_grey"># Há alguns algoritmos em meu git hub</strong>'
 var img_js_select = '<img src="\\img\\javascript.svg" alt="AI.svg"></img>'
-var img_github_js = '<a href="https://github.com/LucasdeMatheus/Hackerrank_Algorithms" target="_blank"><img src="\\img\\github.svg" alt="github logo"><div id="line_inSocial"></div></a>'
 
 // 3
 js_select.onclick = function(){
@@ -247,7 +240,6 @@ js_select.onclick = function(){
             h1_conhecimentos.innerHTML = h1_js_select
             h2_conhecimentos.innerHTML = h2_js_select
             img_conhecimentos.innerHTML = img_js_select
-            img_github_conhecimentos.innerHTML = img_github_js
             
             show_conhecimento_select()
         },500)
@@ -268,7 +260,6 @@ figma_select.onclick = function(){
             h1_conhecimentos.innerHTML = h1_figma_select
             h2_conhecimentos.innerHTML = h2_figma_select
             img_conhecimentos.innerHTML = img_figma_select
-            img_github_conhecimentos.innerHTML = null
             show_conhecimento_select()
         },500)
     }
@@ -288,7 +279,6 @@ css_select.onclick = function(){
             h1_conhecimentos.innerHTML = h1_css_select
             h2_conhecimentos.innerHTML = h2_css_select
             img_conhecimentos.innerHTML = img_css_select
-            img_github_conhecimentos.innerHTML = null
             show_conhecimento_select()
         },500)
     }
@@ -308,7 +298,6 @@ html_select.onclick = function(){
             h1_conhecimentos.innerHTML = h1_html_select
             h2_conhecimentos.innerHTML = h2_html_select
             img_conhecimentos.innerHTML = img_html_select
-            img_github_conhecimentos.innerHTML = null
             show_conhecimento_select()
         },500)
     }

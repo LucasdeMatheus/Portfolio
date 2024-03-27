@@ -1,95 +1,97 @@
-.section1{
-    box-shadow: 0 5px 5px black;
-    background-color: var(--color-terciary);
-    margin-top: 0.5%;
-    width: 100%;
-    height: 10vh;
-    opacity: 0;
-    transition: 1s;
-}
-.section1.visible{
-    opacity: 1;
-    height: 75vh;
-}
-
-
-#container_redes{
-    display: flex;
-    width: 20%;
-    height: auto;
-    gap: 18%;
-    align-items: center;
-    justify-content: center;
-    margin-left: 5%;
-    margin-top: 2.5%;
-}
-
-#img_linkedin{
-    width: 17.83%;
-    transition: background-color 1s, width 0.5s;
-}
-#img_github{
-    width: 100%;
-    transition: background-color 1s, width 0.5s;
-}
-.section1 img{
-    opacity: 0;
-    transition: 2s;
-}
-.section1.visible img{
-    opacity: 1;
-}
-
-#line_inSocial {
-    align-items: center;
-    justify-content: center;
-    width: 0%; 
-    height: 0.8vh;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-    background-color: var(--color-primary);
-    transition: 0.5s;
-}
-
-#img_github:hover{
-    width: 120%;
-}
-#img_github:hover + #line_inSocial {
-    background-color: #00AF85;
-    margin-left: 5%;
-    width: 110%;
-}
-#img_linkedin:hover{
-    width: 22.5%;
-}
-#img_linkedin:hover + #line_inSocial {
-    background-color: #00AF85;
-    width: 18%;
-    margin-left: 0.5%;
-}
-.section1 h1 {
-    color: white;
-    opacity: 0;
-    font-size: 0vw;
-    padding-top: 5%;
-    padding-left: 3%;
-    transition: 1s;
-}
-.section1.visible h1{
-    opacity: 1;
-    font-size: 3.525vw;
-}
-
-.section1 h2 {
-    color: white;
-    font-size: 0vw;
-    margin-top: 1.5%;
-    margin-left: 7%;
-    transition: 1.5s;
-}
-.section1.visible h2 {
-    opacity: 1;
-    font-size: 1.525vw;
+@media screen and (min-width: 1024px){
+    .section1{
+        box-shadow: 0 5px 5px black;
+        background-color: var(--color-terciary);
+        margin-top: 0.5%;
+        width: 100%;
+        height: 10vh;
+        opacity: 0;
+        transition: 1s;
+    }
+    .section1.visible{
+        opacity: 1;
+        height: 75vh;
+    }
+    
+    
+    #container_redes{
+        display: flex;
+        width: 20%;
+        height: auto;
+        gap: 18%;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5%;
+        margin-top: 2.5%;
+    }
+    
+    #img_linkedin{
+        width: 17.83%;
+        transition: background-color 1s, width 0.5s;
+    }
+    #img_github{
+        width: 100%;
+        transition: background-color 1s, width 0.5s;
+    }
+    .section1 img{
+        opacity: 0;
+        transition: 2s;
+    }
+    .section1.visible img{
+        opacity: 1;
+    }
+    
+    #line_inSocial {
+        align-items: center;
+        justify-content: center;
+        width: 0%; 
+        height: 0.8vh;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        background-color: var(--color-primary);
+        transition: 0.5s;
+    }
+    
+    #img_github:hover{
+        width: 120%;
+    }
+    #img_github:hover + #line_inSocial {
+        background-color: #00AF85;
+        margin-left: 5%;
+        width: 110%;
+    }
+    #img_linkedin:hover{
+        width: 22.5%;
+    }
+    #img_linkedin:hover + #line_inSocial {
+        background-color: #00AF85;
+        width: 18%;
+        margin-left: 0.5%;
+    }
+    .section1 h1 {
+        color: white;
+        opacity: 0;
+        font-size: 0vw;
+        padding-top: 5%;
+        padding-left: 3%;
+        transition: 1s;
+    }
+    .section1.visible h1{
+        opacity: 1;
+        font-size: 3.525vw;
+    }
+    
+    .section1 h2 {
+        color: white;
+        font-size: 0vw;
+        margin-top: 1.5%;
+        margin-left: 7%;
+        transition: 1.5s;
+    }
+    .section1.visible h2 {
+        opacity: 1;
+        font-size: 1.525vw;
+    }
 }
