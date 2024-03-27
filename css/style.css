@@ -103,7 +103,7 @@ footer div{
 }
 
 
-@media screen and (max-width: 767px){
+@media screen and (width: 360px) and (height: 740px){
     .nav_header{
     padding: 0;
     }
