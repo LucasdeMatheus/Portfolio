@@ -35,9 +35,7 @@ li{
     justify-content: center;
     transition: 0.9s;
 }
-li:hover{
-    background-color: var(--color-secondary);
-}
+
 .nav_header{
     font-size: 0vw;
     margin: 0%;

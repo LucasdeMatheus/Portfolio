@@ -63,3 +63,163 @@ button{
     font-family: "Roboto", sans-serif;
     font-weight: 500
 }
+
+
+/* Estilizando a barra de rolagem */
+::-webkit-scrollbar {
+    width: 2vh; /* Largura da barra de rolagem */
+  }
+  
+  /* Estilizando o botão de rolagem (setas) */
+  ::-webkit-scrollbar-button {
+    display: none; /* Cor do botão de rolagem */
+  }
+  
+  /* Estilizando a pista da barra de rolagem */
+  ::-webkit-scrollbar-track {
+    background-color: #000000; /* Cor da pista da barra de rolagem */
+  }
+  
+  /* Estilizando o polegar da barra de rolagem */
+  ::-webkit-scrollbar-thumb {
+    background-color: #9d008d; 
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+/* --------------------------------------- footer --------------------------------------- */
+
+footer p{
+    color: white;
+    font-size: 3vh;
+    padding: 1%;
+    font-weight: 200
+}
+footer div{
+    box-shadow: black 0px -20px 3em;
+    background-color: var(--color-terciary);
+    width: 100%;
+}
+
+
+@media screen and (max-width: 767px){
+    .nav_header{
+    padding: 0;
+    }
+    .nav_header.visible a{
+        font-size: 2.525vw;
+    }
+    ul {
+        height: 5vh;
+    }
+    #line_inNav {
+        width: 0.5%;
+        height: 4vh;
+    }
+    .section1.visible h2 {
+        opacity: 1;
+        font-size: 3.525vw;
+    }
+    .section1.visible h1 {
+        opacity: 1;
+        font-size: 6.525vw;
+    }
+    #container_redes {
+        display: flex;
+        width: 60%;
+        height: auto;
+        gap: 6%;
+    }
+    .section1.visible {
+        opacity: 1;
+        height: 25vh;
+    }
+    .section2.visible h1 {
+        opacity: 1;
+        font-size: 5.525vw;
+    }
+    .section2.visible h2 {
+        opacity: 1;
+        font-size: 3.525vw;
+    }
+    #nav_left, #nav_right {
+        all: initial;
+        font-size: 15vw;
+    }
+    .section2.visible img {
+        filter: drop-shadow(0 0 5px rgba(0, 0, 0, 1));
+        opacity: 1;
+        width: 25%;
+        margin-left: 65%;
+    }
+    .section2.visible {
+        height: 31vh;
+        opacity: 1;
+    }
+    #div_projects h1 {
+        text-align: center;
+        font-size: 2.5vw;
+        margin-left: 10%;
+        margin-right: 10%;
+        position: relative;
+        bottom: 0%;
+        transition: 2s, bottom 1s;
+    }
+    #div_projects img {
+        width: 30%;
+        padding-top: 5%;
+        padding-bottom: 20%;
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        transition: 1s;
+    }
+    .section3.visible #div_projects {
+        height: 17vh;
+    }
+    .div_conhecimentos {
+        margin-bottom: 5%;
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+        background-color: var(--color-primary);
+        width: 19%;
+        height: 9.4vh;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .section4.visible #line_inConhecimentos {
+        height: 7vh;
+    }
+    .sobre_conhecimentos.visible h2 {
+        opacity: 1;
+        font-size: 2vh;
+    }
+    .sobre_conhecimentos.visible .div_conhecimentos_select {
+        opacity: 1;
+        width: 15%;
+        height: 5vh;
+    }
+    .sobre_conhecimentos.visible h1 {
+        opacity: 1;
+        font-size: 3vh;
+        margin-bottom: 3%;
+    }
+    .sobre_conhecimentos.visible {
+        opacity: 1;
+        height: 55vh;
+    }
+
+
+
+
+
+
+    footer p {
+        color: white;
+        font-size: 1.2vh;
+        padding: 1%;
+        font-weight: 200;
+    }
+}
